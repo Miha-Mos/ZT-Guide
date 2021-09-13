@@ -37,7 +37,7 @@ $(document).ready(function(){
             break;
             case "9":
                 obj_info = {
-                    img: '<img src="https://lh3.googleusercontent.com/proxy/bAm4fI_raO4rvpsyJKH9Ei50yPb2zSijv0NGz79cZyWnx3sTeI6JFOI7LvXPEMrsHIB2HK48k0lUOI7tCnwG1HTaG_D5_jWDG-a22rc09JeF3Iy7LSlqIVKsEFikBA">',
+                    img: '<img src="https://www.autovykup.com.ua/wp-content/uploads/2020/09/zhitomir-1024x481.jpg">',
                     map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.518963174932!2d28.662915315453066!3d50.24489101003656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c6485a85f46db%3A0xe8e4df42d76a3760!2z0J_QsNGA0Log0ZbQvC4g0K7RgNGW0Y8g0JPQsNCz0LDRgNGW0L3QsA!5e0!3m2!1sru!2sua!4v1631552631565!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
                     title: '<h1>Гагаринский Парк</h1>',
                     text: '<p>Городской парк имени Гагарина в Житомире – одно из лучших мест для прогулок и отдыха горожан. Он протянулся на берегу реки Тетерев на площади около 36 га. Тут есть фонтаны, скульптуры, уникальные растения и зоны отдыха.</p>'
