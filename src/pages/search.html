@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../build/search.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../libs/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="icon" href="../img/fav-icon/favicon.ico">
+    <link rel="stylesheet" href="../libs/wow.js/wow.css">
+    <title>ZT-Guide</title>
+</head>
+<body>
+    <div class="all-content">
+
+        <!--Header-->
+        <header class="header wow fadeInDown">
+            <div class="header__wrapper container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <a href="../../index.html">
+                            <img src="../img/logo.svg" alt="">
+                        </a>
+                    </div>    
+                    <nav class="header__nav nav">
+                        <ul class="nav__block">
+                            <li class="nav__item"><a>Интересные места</a></li>
+                            <li class="nav__item"><a href="galery.html">Галерея</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Breadcrumbs-->
+        <div class="breadcrumbs">
+            <div class="breadcrumbs__wrapper container wow fadeInLeft" data-wow-delay="0.2s">
+                <ul class="breadcrumbs__block">
+                    <li class="breadcrumbs__item"><a href="../../index.html">Главная</a></li>
+                    <li class="breadcrumbs__item">Интересные места</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Attraction-->
+        <section class="attraction">
+            <div class="attraction__wrapper container">
+                <div class="attraction__title wow fadeInLeft" data-wow-delay="0.4s"><p>Достопримечательности Житомира</p></div>
+            </div>
+        </section>
+
+        <!--Popular-->
+        <section class="popular">
+            <div class="popular__wrapper container">
+                <div class="category__title wow fadeInDown" data-wow-delay="0.4s"><h3>Популярные места</h3></div>
+                <div class="popular__items">
+
+                    <div class="popular__item item_1 pop-up__open wow fadeIn" data-wow-delay="0.4s" id="1">
+                       <div class="item__title">Музей</div>
+                    </div>
+
+                    <div class="popular__item item_2 pop-up__open wow fadeIn" data-wow-delay="0.6s" id="9">
+                        <div class="item__title">Парк</div>
+                     </div>
+
+                     <div class="popular__item item_3 pop-up__open wow fadeIn" data-wow-delay="0.8s" id="15">
+                        <div class="item__title">Собор</div>
+                     </div>
+
+                     <div class="popular__item item_4 pop-up__open wow fadeIn" data-wow-delay="1s" id="2">
+                        <div class="item__title">Музей</div>
+                     </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Categories-->
+        <section class="categories">
+            <div class="categories__wrapper container">
+
+                <div class="pop-up">
+                    <div class="pop-up__wrapper container">
+                        <div class="pop-up__close"><img src="../img/icon/close.svg" width="" alt=""></div>
+                        <div class="pop-up__upper">
+                            <div class="pop-up__img">
+                            </div>
+                            <div class="pop-up__map"></div>
+                        </div>
+                        <div class="pop-up__lower">
+                            <div class="pop-up__description">
+                                <div class="pop-up__title"></div>
+                                <div class="pop-up__text"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category__wrapper">
+                        <div class="category__title wow fadeInDown" data-wow-delay="0.5s"><h3>Музеи</h3></div>
+                        <div class="category__items owl-carousel owl-theme">
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.4s">
+                                <a class="pop-up__open" id="1">
+
+                                    <div class="category__upper">
+                                        <img src="https://top20.ua/media-resize/company_large/zhitomirskiy-muzey-kosmonavtiki-im-sp-koroleva-65816.jpeg?timestamp=1568974445" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Музей космонавтики им. С. Королева</p></div>
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.6s">
+                                <a class="pop-up__open" id="2">
+                                    <div class="category__upper">
+                                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/05/d6/5f/b1/zhytomyr-nature-museum.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Житомирский музей природы</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.8s">
+                                <a class="pop-up__open" id="3">
+                                    <div class="category__upper">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Sergei_Korolyov_Museum_%28Moscow%29_-6.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Мемориальный дом-музей С.П. Королева</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="1s">
+                                <a class="pop-up__open" id="4">
+                                    <div class="category__upper">
+                                        <img src="http://www.videnovum.com/foto/ukraine/136/zhitomir/remeslenny-dvor/sDSC_0052.JPG" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Музей Ремесленный двор</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="5">
+                                    <div class="category__upper">
+                                        <img src="https://dost.mistaua.com/2016/2408_2_2.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Музей истории пожарной охраны</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="6">
+                                    <div class="category__upper">
+                                        <img src="https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/19756_800x600_800px-Zhitomir.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Житомирский литературный музей</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="7">
+                                    <div class="category__upper">
+                                        <img src="http://andreyshad.ru/wp-content/uploads/2015/10/dom-muzej-korolenko-17.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Музей Короленко</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="8">
+                                    <div class="category__upper">
+                                        <img src="https://baza.zruchno.com.ua/upload/6aba2dec-6e71-cd89-022f-589c948125a0_obj_img_1_c" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Этнографический музей Древлянское село</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category__wrapper">
+                        <div class="category__title wow fadeInDown" data-wow-delay="0.4s"><h3>Природа и парки</h3></div>
+                        <div class="category__items owl-carousel owl-theme">
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.4s">
+                                <a class="pop-up__open" id="9">
+                                    <div class="category__upper">
+                                        <img src="https://www.autovykup.com.ua/wp-content/uploads/2020/09/zhitomir-1024x481.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Гагаринский Парк</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.6s">
+                                <a class="pop-up__open" id="10">
+                                    <div class="category__upper">
+                                        <img src="https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/19749_800x600_Screenshot_1.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Парк Замковой горы</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.8s">
+                                <a class="pop-up__open" id="11">
+                                    <div class="category__upper">
+                                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/e5/49/a7/caption.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>МультиЗоо контактный зоопарк</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="1s">
+                                <a class="pop-up__open" id="12">
+                                    <div class="category__upper">
+                                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d6/33/ca/caption.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Скалодром</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="13">
+                                    <div class="category__upper">
+                                        <img src="https://f.mixsport.pro/photo/6013/aP1dI.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Ботанический сад Житомирского национального агроэкологического университета</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="14">
+                                    <div class="category__upper">
+                                        <img src="https://www.successful-city.com/wp-content/uploads/2021/08/230532275_1509632182712356_1538880526765816050_n.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Соколовский карьер</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category__wrapper">
+                        <div class="category__title wow fadeInDown" data-wow-delay="0.4s"><h3>Церкви, соборы, храмы</h3></div>
+                        <div class="category__items owl-carousel owl-theme">
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.4s">
+                                <a class="pop-up__open" id="15">
+                                    <div class="category__upper">
+                                        <img src="https://zeft.in.ua/wp-content/uploads/2020/04/Spaso-Preobrazhenskij-sobor-m.-ZHitomir-1.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Спасо-Преображенский собор</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.6s">
+                                <a class="pop-up__open" id="16">
+                                    <div class="category__upper">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80._%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80..JPG/1200px-%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80._%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80..JPG" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Собор Святого Архангела Михаила</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.8s">
+                                <a class="pop-up__open" id="17">
+                                    <div class="category__upper">
+                                        <img src="https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/31356_800x600_Screenshot_12.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Успенская церковь</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="1s">
+                                <a class="pop-up__open" id="18">
+                                    <div class="category__upper">
+                                        <img src="https://periscope.com.ua/sites/default/files/dazest/sobor-svsofii-01.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Софийский собор</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="19">
+                                    <div class="category__upper">
+                                        <img src="https://kzd.org.ua/sites/default/files/9y5b6713_m.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Храм св. Иоанна из Дукли</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="20">
+                                    <div class="category__upper">
+                                        <img src="https://periscope.com.ua/sites/default/files/dazest/hrestov-cerkva-zt-01.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Крестовоздвиженский собор</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="21">
+                                    <div class="category__upper">
+                                        <img src="http://ukrainaincognita.com/wp-content/uploads/files/zhtomyr_kirha7.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Лютеранская церковь</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category__wrapper">
+                        <div class="category__title wow fadeInDown" data-wow-delay="0.4s"><h3>Культурные объекты</h3></div>
+                        <div class="category__items owl-carousel owl-theme">
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.4s">
+                                <a class="pop-up__open" id="22">
+                                    <div class="category__upper">
+                                        <img src="https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/19354_800x600_Screenshot_18.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Водонапорная башня</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.6s">
+                                <a class="pop-up__open" id="23">
+                                    <div class="category__upper">
+                                        <img src="https://st-img.columbista.com/data/poi-4sq/monument-vechnoi-slavy/5_big_monument-vechnoi-slavy.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Мемориал Вечной Славы</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.8s">
+                                <a class="pop-up__open" id="24">
+                                    <div class="category__upper">
+                                        <img src="https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/19320_800x600_Screenshot_9.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Особняк Филиппова</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="1s">
+                                <a class="pop-up__open" id="25">
+                                    <div class="category__upper">
+                                        <img src="https://we.org.ua/wp-content/uploads/2014/11/ab5af5f4a2ebb94b52ab57e7e082974b_600x1000-1024x679.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Скала "Голова Чацкого"</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item">
+                                <a class="pop-up__open" id="26">
+                                    <div class="category__upper">
+                                        <img src="https://ua.igotoworld.com/frontend/webcontent/websites/50/images/gallery/19330_800x600_Screenshot_15.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Плоский дом</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category__wrapper">
+                        <div class="category__title wow fadeInDown" data-wow-delay="0.4s"><h3>Театры</h3></div>
+                        <div class="category__items owl-carousel owl-theme">
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.4s">
+                                <a class="pop-up__open" id="27">
+                                    <div class="category__upper">
+                                        <img src="https://uatravel.info/storage/images/5/c/9/5c9ad89de6a300999ab7ae6764f2eda4.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Кукольный театр</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="category__item wow fadeIn" data-wow-delay="0.6s">
+                                <a class="pop-up__open" id="28">
+                                    <div class="category__upper">
+                                        <img src="http://photos.wikimapia.org/p/00/03/44/73/35_big.jpg" alt="">
+                                    </div>
+                                    <div class="category__lower">
+                                        <div class="category__name"><p>Музыкально-драматический театр имени Ивана Кочерги</p></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="footer__wrapper container">
+                <div class="footer__content">
+                    <div class="footer__logo wow fadeIn" data-wow-delay="0.2s">
+                        <a href="../../index.html"><img src="../img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../libs/wow.js/wow.min.js"></script>
+<script src="../build/interests-places.prod.js"></script>
+<script src="../libs/owlcarousel/owl.carousel.min.js"></script>
+</body>
+</html>
